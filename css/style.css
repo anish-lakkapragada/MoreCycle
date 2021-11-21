@@ -1,0 +1,910 @@
+/*
+	Awesome Responsive Template
+	templatestock.co
+*/
+
+
+/* Typography CSS */
+
+body
+{
+	font-family: 'Roboto' !important;
+	overflow-x: hidden;
+}
+
+.main_heading {
+    margin: 50px 0px;
+}
+
+.main_heading h1
+{
+	font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 45px;
+    color: #777;
+}
+
+.underline
+{
+    display: inline-block;
+    width: 160px;
+    height: 2px;
+    background-color: #65CD00;
+}
+
+/* Header CSS */
+
+.header-div
+{
+	height: 550px;
+    background-color: #65cd00;
+}
+
+.logo-div a
+{
+    color: #fff !important;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.navbar-nav li:nth-last-child(1) a
+{
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-right-menu-ul
+{
+	margin-top: 10px;
+}
+
+.slide-text
+{
+	color: #fff;
+	margin-top: 80px;
+}
+
+.slide-text h1
+{
+    line-height: 60px;
+    font-size: 60px;
+    margin-bottom: 18px;
+}
+
+.slide-text p
+{
+	font-size: 17px;
+}
+
+
+/* Features CSS */
+.features-div
+{
+	text-align: center;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+}
+
+.features-div:hover
+{
+	margin-top: -10px;
+}
+
+
+.features-div i
+{
+	font-size: 35px;
+    font-weight: 300;
+    color: #65CD00;
+}
+
+.features-div h4
+{
+    color: #393939;
+    font-weight: 400;
+}
+
+.features-div p
+{
+    color: #636363;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.more-features-div
+{
+    margin-top: 40px;
+	overflow: hidden;
+}
+
+.more-feature-div
+{
+    background: #f8f8f8;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;	
+    margin: 70px 0px;
+    margin-bottom: 0px;      
+    padding: 50px 0px;  
+}
+
+.more-feature-div .col-md-6 img
+{
+    width: 100%;
+}
+
+
+.more-features-div-icon {
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding-top: 6px;
+    background: #65CD00;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+}
+
+.more-features-div-heading {
+    float: right;
+    width: 86%;
+    margin-top: 0;
+    font-weight: 400;    
+}
+
+.more-features-div-description
+{
+	float: right;
+    width: 86%;
+    font-weight: 300;
+}
+
+/* Services CSS */
+.services-box-gray {
+    background: #f8f8f8;
+}
+
+.services-box
+{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.services-box i
+{
+    line-height: 75px;
+    font-size: 50px;
+}
+
+.services-box h4
+{
+	font-size: 18px;
+    font-weight: 400;
+}
+
+.services-box p
+{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+/* Price Table CSS */
+
+.pricing-box {
+    background: #f8f8f8;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.pricing-box-price {
+    position: relative;
+    padding: 20px 0 7px 0;
+    background: #eee;
+    font-size: 42px;
+    color: #555;
+    line-height: 54px;
+}
+
+.pricing-box-price span {
+    font-size: 18px;
+    color: #888;
+    line-height: 32px;
+}
+
+.pricing-box-price strong
+{
+	font-weight: 500;
+}
+
+.pricing-box h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    background: #eee;
+    color: #888;
+}
+
+.pricing-box h4 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    padding: 10px 20px;
+    background: #e8e8e8;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.pricing-box-features ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pricing-box-features li {
+    padding: 7px 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.btn-link-1 {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    margin: 0 5px;
+    padding: 16px 20px 0 20px;
+    background: #61C103;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.pricing-box-sign-up {
+    padding: 25px 0;
+}
+
+.pricing-box-best .pricing-box-price {
+    background: #65CD00;
+    color: #fff;
+}
+
+.pricing-box-best .pricing-box-price span {
+    color: #fff;
+}
+
+.pricing-box-best h3 {
+    background: #65CD00;
+    color: #fff;
+}
+
+.pricing-box-best h4 {
+    background: #61C103;
+    color: #fff;
+}
+
+/* Call Action */
+.call-action-bg
+{
+	background-image: url(../images/dashboard-img.jpg);
+	margin:60px 0px; 
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+	background-size: cover;    
+}
+
+.call-action-color {
+    background-color: #61C103;
+    margin: 60px 0px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.call-action-color .main_heading h1
+{
+	color: #fff;
+}
+
+.call-action-color .underline
+{
+	background-color: #fff;
+}
+
+/* About */
+.about-us-box {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.about-us-box .about-us-photo {
+    position: relative;
+    width: 160px;
+    margin: 0 auto;
+}
+
+
+.about-us-box .about-us-photo .about-us-role {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 3px 5px;
+    background: #019299;
+    font-size: 14px;
+    color: #fff;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.about-us-box .about-us-social a {
+    color: #ddd;
+}
+
+.about-us-box .about-us-social {
+    margin-top: 5px;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+.about-us-box h3
+{
+	font-size: 24px;
+    font-weight: 400;
+}
+
+.about-us-box p
+{
+	font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 40px 0 35px 0;
+    text-align: center;    
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.footer-social  a
+{
+    color: #878787;
+}
+
+
+
+/* Bootstrap CSS */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav li a
+{
+	color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+/* Extra Small devices  */
+@media (max-width: 480px) {
+	.more-features-div-description, .more-features-div-heading
+	{
+		width: 80%;
+	}
+		.header-div
+	{
+		height: 350px;
+	}
+
+	.slide-text {
+	    color: #fff;
+    	margin-top: 35px;
+	}
+	.slide-text p {
+    	font-size: 12px;
+	}
+
+	.slide-text h1 {
+	    line-height: 25px;
+    	font-size: 25px;
+	}
+}
+
+/* Extra Small devices  */
+@media (max-width: 767px) {
+	.slide-text h1
+	 {
+	 	line-height: 30px;
+    	font-size: 30px;
+	 }
+
+	 .slide-text p {
+    	font-size: 13px;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	 .pricing-box
+	 {
+	 	margin-bottom: 20px;
+	 }
+
+	 .slide-text h1
+	 {
+	 	line-height: 45px;
+    	font-size: 45px;
+	 }
+
+	 .slide-text p {
+    	font-size: 15px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	/* Typography CSS */
+
+body
+{
+	font-family: 'Roboto' !important;
+	overflow-x: hidden;
+}
+
+.main_heading {
+    margin: 50px 0px;
+}
+
+.main_heading h1
+{
+	font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 45px;
+    color: #777;
+}
+
+.underline
+{
+    display: inline-block;
+    width: 160px;
+    height: 2px;
+    background-color: #65CD00;
+}
+
+/* Header CSS */
+
+.header-div
+{
+	height: 550px;
+    background-color: #65cd00;
+}
+
+.logo-div a
+{
+    color: #fff !important;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.navbar-nav li:nth-last-child(1) a
+{
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-right-menu-ul
+{
+	margin-top: 10px;
+}
+
+.slide-text
+{
+	color: #fff;
+	margin-top: 80px;
+}
+
+.slide-text h1
+{
+    line-height: 60px;
+    font-size: 60px;
+    margin-bottom: 18px;
+}
+
+.slide-text p
+{
+	font-size: 17px;
+}
+
+
+/* Features CSS */
+.features-div
+{
+	text-align: center;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+}
+
+.features-div:hover
+{
+	margin-top: -10px;
+}
+
+
+.features-div i
+{
+	font-size: 35px;
+    font-weight: 300;
+    color: #65CD00;
+}
+
+.features-div h4
+{
+    color: #393939;
+    font-weight: 400;
+}
+
+.features-div p
+{
+    color: #636363;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.more-features-div
+{
+    margin-top: 40px;
+	overflow: hidden;
+}
+
+.more-feature-div
+{
+    background: #f8f8f8;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;	
+    margin: 70px 0px;
+    margin-bottom: 0px;      
+    padding: 50px 0px;  
+}
+
+
+.more-features-div-icon {
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding-top: 6px;
+    background: #65CD00;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+}
+
+.more-features-div-heading {
+    float: right;
+    width: 86%;
+    margin-top: 0;
+    font-weight: 400;    
+}
+
+.more-features-div-description
+{
+	float: right;
+    width: 86%;
+    font-weight: 300;
+}
+
+/* Services CSS */
+.services-box-gray {
+    background: #f8f8f8;
+}
+
+.services-box
+{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.services-box i
+{
+    line-height: 75px;
+    font-size: 50px;
+}
+
+.services-box h4
+{
+	font-size: 18px;
+    font-weight: 400;
+}
+
+.services-box p
+{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+/* Price Table CSS */
+
+.pricing-box {
+    background: #f8f8f8;
+    text-align: center;
+}
+
+.pricing-box-price {
+    position: relative;
+    padding: 20px 0 7px 0;
+    background: #eee;
+    font-size: 42px;
+    color: #555;
+    line-height: 54px;
+}
+
+.pricing-box-price span {
+    font-size: 18px;
+    color: #888;
+    line-height: 32px;
+}
+
+.pricing-box-price strong
+{
+	font-weight: 500;
+}
+
+.pricing-box h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    background: #eee;
+    color: #888;
+}
+
+.pricing-box h4 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    padding: 10px 20px;
+    background: #e8e8e8;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.pricing-box-features ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pricing-box-features li {
+    padding: 7px 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.btn-link-1 {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    margin: 0 5px;
+    padding: 16px 20px 0 20px;
+    background: #61C103;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.pricing-box-sign-up {
+    padding: 25px 0;
+}
+
+.pricing-box-best .pricing-box-price {
+    background: #65CD00;
+    color: #fff;
+}
+
+.pricing-box-best .pricing-box-price span {
+    color: #fff;
+}
+
+.pricing-box-best h3 {
+    background: #65CD00;
+    color: #fff;
+}
+
+.pricing-box-best h4 {
+    background: #61C103;
+    color: #fff;
+}
+
+/* Call Action */
+.call-action-bg
+{
+	background-image: url(../images/dashboard-img.jpg);
+	margin:60px 0px; 
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+	background-size: cover;    
+}
+
+.call-action-color {
+    background-color: #61C103;
+    margin: 60px 0px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.call-action-color .main_heading h1
+{
+	color: #fff;
+}
+
+.call-action-color .underline
+{
+	background-color: #fff;
+}
+
+/* About */
+.about-us-box {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.about-us-box .about-us-photo {
+    position: relative;
+    width: 160px;
+    margin: 0 auto;
+}
+
+
+.about-us-box .about-us-photo .about-us-role {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 3px 5px;
+    background: #019299;
+    font-size: 14px;
+    color: #fff;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.about-us-box .about-us-social a {
+    color: #ddd;
+}
+
+.about-us-box .about-us-social {
+    margin-top: 5px;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+.about-us-box h3
+{
+	font-size: 24px;
+    font-weight: 400;
+}
+
+.about-us-box p
+{
+	font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 40px 0 35px 0;
+    text-align: center;    
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.footer-social  a
+{
+    color: #878787;
+}
+
+
+
+/* Bootstrap CSS */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav li a
+{
+	color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+}
