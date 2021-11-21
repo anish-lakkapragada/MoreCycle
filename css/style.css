@@ -6,9 +6,13 @@
 
 /* Typography CSS */
 
+
+#dank {
+    opacity: 1 !important;
+}
 body
 {
-	font-family: 'Roboto' !important;
+	font-family: 'Roboto' backog!important;
 	overflow-x: hidden;
 }
 
@@ -30,16 +34,10 @@ body
     display: inline-block;
     width: 160px;
     height: 2px;
-    background-color: #65CD00;
+    background-color: red;
 }
 
 /* Header CSS */
-
-.header-div
-{
-	height: 550px;
-    background-color: #65cd00;
-}
 
 .logo-div a
 {
@@ -102,7 +100,6 @@ body
 {
 	font-size: 35px;
     font-weight: 300;
-    color: #65CD00;
 }
 
 .features-div h4
@@ -521,10 +518,12 @@ body
 
 /* Header CSS */
 
-.header-div
-{
-	height: 550px;
-    background-color: #65cd00;
+
+
+.header-div {
+    background-image: url("https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2014/06/19456/image1170x530cropped.jpg"); 
+    background-size: cover;
+    position: relative; 
 }
 
 .logo-div a
