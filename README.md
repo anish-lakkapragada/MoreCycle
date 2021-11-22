@@ -13,7 +13,8 @@ We create an ML application in Swift to detect whether a given object is trash o
 
 Our pitch is below:
 
-<img src = "demo.gif">
+https://user-images.githubusercontent.com/68448458/142794565-d61c03a0-d1e8-4456-9d86-e84d4374a8b0.mov
+
 
 ## How We Made It 
 
