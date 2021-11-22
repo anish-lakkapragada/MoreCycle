@@ -1,5 +1,6 @@
 # MoreCycle 
 
+<<<<<<< HEAD
 Anish Lakkapragada, Aayush Talluri, Soumik Sinha, and Abhishek Nambiar's project is found here. 
 
 <img src = "dank.png"> </img>
@@ -24,3 +25,10 @@ We also had time, so we created a [website](https://anish-lakkapragada.github.io
 Resources Used:
 1) Swift App: https://www.youtube.com/watch?v=jU89Dq-RLVc
 2) Website: https://www.free-css.com/free-css-templates/page263/awesome
+=======
+Anish Lakkapragada, Aayush Talluri, Soumik Sinha, and Abhishek Nambiar's project is found here.
+
+Resources Used:
+1) Swift App: https://www.youtube.com/watch?v=jU89Dq-RLVc
+2) Website: https://www.free-css.com/free-css-templates/page263/awesome
+>>>>>>> 0fa6cd45b170acbd8b2ca474ba6e419623544088
