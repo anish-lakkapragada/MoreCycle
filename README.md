@@ -1,6 +1,6 @@
 # MoreCycle 
 
-Anish Lakkapragada, Aayush Talluri, Soumik Sinha, and Abhishek Nambiar's project is found here. 
+Anish Lakkapragada, Aayush Talluri, Soumik Sinha, and Abhishek Nambiar's project is found here!
 
 <img src = "dank.png"> </img>
 ## Idea 
